@@ -5,6 +5,12 @@ import Main from "../layout/Main";
 import Home from "../components/home/Home";
 import Teacher from "../components/teacher/Teacher";
 import Students from "../components/students/Students";
+import MyClass from "../components/myClass/MyClass";
+import StudentProfile from "../components/studentProfile/StudentProfile";
+import Online from "../components/online/Online";
+import TeacherClass from "../components/teacherClass/TeacherClass";
+import TeacherOnline from "../components/teacherOnline/TeacherOnline";
+import TeacherProfile from "../components/teacherProfile/TeacherProfile";
 
  export const router = createBrowserRouter([
     {
@@ -21,7 +27,31 @@ import Students from "../components/students/Students";
         },
         {
             path:"/student",
-            element:<Students></Students>
+            element:<Students></Students>,
+        },
+        {
+            path:"/studentProfile",
+            element:<StudentProfile></StudentProfile>
+        },
+        {
+            path:"/myClass",
+            element:<MyClass></MyClass>
+        },
+        {
+            path:"/online",
+            element:<Online></Online>
+        },
+        {
+            path:"/teacherClass",
+            element:<TeacherClass></TeacherClass>
+        },
+        {
+            path:"/teacherOnline",
+            element:<TeacherOnline></TeacherOnline>
+        },
+        {
+            path:"/teacherProfile",
+            element:<TeacherProfile></TeacherProfile>
         },
       ]
     },
