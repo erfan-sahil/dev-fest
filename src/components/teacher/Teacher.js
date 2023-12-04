@@ -30,6 +30,7 @@ const Teacher = () => {
               <Link className="text-xl font-semibold hover:bg-yellow-200 hover:rounded-md hover:text-whit " to={"/teacherProfile"}> Teacher Profile </Link>
               <Link className="text-xl font-semibold hover:bg-yellow-200 hover:rounded-md hover:text-whit" to={"/teacherClass"}> My Class </Link>
               <Link className="text-xl font-semibold hover:bg-yellow-200 hover:rounded-md hover:text-whit" to={"/teacherOnline"}> Online </Link>
+              <Link className="text-xl font-semibold hover:bg-yellow-200 hover:rounded-md hover:text-whit" to={"/excalidraw"}> Excalidraw </Link>
             </ul>
           </div>
         </div>

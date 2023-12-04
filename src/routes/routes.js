@@ -11,6 +11,7 @@ import Online from "../components/online/Online";
 import TeacherClass from "../components/teacherClass/TeacherClass";
 import TeacherOnline from "../components/teacherOnline/TeacherOnline";
 import TeacherProfile from "../components/teacherProfile/TeacherProfile";
+import Excalidraw from "../components/excalidraw/Excalidraw";
 
  export const router = createBrowserRouter([
     {
@@ -52,6 +53,10 @@ import TeacherProfile from "../components/teacherProfile/TeacherProfile";
         {
             path:"/teacherProfile",
             element:<TeacherProfile></TeacherProfile>
+        },
+        {
+            path:"/excalidraw",
+            element:<Excalidraw></Excalidraw>
         },
       ]
     },
