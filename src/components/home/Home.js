@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div>
             <div className="hero min-h-screen bg-base-200">
-  <div className="hero-content flex-col border border-black rounded-md p-4">
+  <div className="hero-content flex-col border border-blac rounded-md shadow-lg p-7">
     <div className="text-center lg:text-left">
       <h1 className="text-5xl font-bold">Login as</h1>
     </div>
